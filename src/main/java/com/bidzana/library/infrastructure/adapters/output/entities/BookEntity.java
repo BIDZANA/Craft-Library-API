@@ -17,4 +17,7 @@ public class BookEntity {
     private String title;
     private String author;
     private int stock;
+
+    @Version
+    private Long version;
 }
